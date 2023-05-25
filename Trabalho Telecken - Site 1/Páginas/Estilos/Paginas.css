@@ -17,7 +17,6 @@ body{
     "header"
     "main"
     "footer";
-
   }
 
 /*-------------------------------------------------------Nav-------------------------------------------------------------*/
@@ -111,12 +110,13 @@ nav{
 
 main{
     grid-area: main;
+    overflow: hidden;
 }
 
 .Navegação{
     display: flex;
     justify-content: center;
-    width: 98.72vw;
+    width: 100%;
     text-align: center; 
     overflow: hidden;
     background-color: #0A2C33;
@@ -394,9 +394,8 @@ main{
 
 #nuvemEsq{
     position: absolute;
-    width: 10vw;
-    align-self: self-start;
-    top: 268vw;
+    left: 0vw;
+    top: 269vw;
     border-radius: 1vw;
     box-shadow: 0 0.5vw 1vw 0.5vw black;
     height: 81vw;
@@ -404,9 +403,9 @@ main{
 
 #nuvemDir{
     position: absolute;
+    right: 0vw;
     width: 10vw;
-    align-self: self-end;
-    top: 268vw;
+    top: 269vw;
     border-radius: 1vw;
     box-shadow: 0 0.5vw 1vw 0.5vw black;
     height: 81vw;
@@ -530,12 +529,14 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 98.73vw;
 }
 
 .bloco6 .Quadrado{
     background-image: url("../imgs/Pg_Skyrim/Fundo_perigos.png");
-    background-size: contain;
-    width: 98.75vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98.8vw;
     height: 119vw;
 }
 
@@ -543,7 +544,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 30vw;   
+        padding-top: 30vw;
 }
 
 .bloco6 .Quadrado .aranha img{
@@ -561,8 +562,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10vw;
+    margin-left: 4vw;
     margin-top: 5vw;
+    width: 80%;
 }
 
 .bloco6 .Quadrado .dragões p{
@@ -586,12 +588,13 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .bloco7 .Quadrado .q2{
     background-color: #0F3F4A;
-    height: 54vw;
-    width: 98.75VW;
+    height: 55vw;
+    width: 98.72VW;
     margin-top: 5vw;
     display: flex;
     justify-content: center;
@@ -604,8 +607,6 @@ main{
     box-shadow: 0 0.5vw 0.5vw 0.9vw rgba(0, 0, 0, 0.200);
     border-radius: 1vw;
     display: flex;
-    bottom: -1205vh;
-    right: 9vw;
     width: 80vw;
     height: 59vw;
 }
@@ -644,7 +645,7 @@ footer{
     align-items: center;
     color: white;
     padding: 2vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
   }
   
   .whats{
