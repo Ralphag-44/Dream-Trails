@@ -337,7 +337,7 @@ main{
 }
 
 .back_img{
-    background-image: url("Ralphag-44/cantogay/Trabalho Telecken - Site 1/Páginas/imgs/Pg_Skyrim/Blackreach_back.png");
+    background-image: url("../imgs/Pg_Skyrim/Blackreach_back.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
@@ -533,7 +533,7 @@ main{
 }
 
 .bloco6 .Quadrado{
-    background-image: url("Ralphag-44/cantogay/Trabalho Telecken - Site 1/Páginas/imgs/Pg_Skyrim/Fundo_perigos.png");
+    background-image: url("../imgs/Pg_Skyrim/Fundo_perigos.png");
     background-size: contain;
     width: 98.75vw;
     height: 119vw;
