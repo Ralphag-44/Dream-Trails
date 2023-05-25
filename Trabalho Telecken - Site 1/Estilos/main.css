@@ -239,240 +239,251 @@ footer img:not(:last-child){
     /*-----------------------------------------------------------------------------------------------------------------------*/
 
 
+    @media screen and (min-width:320px) and (max-width:480px){
 
-  @media screen and (min-width:320px) and (max-width:480px){
-
-  *{
-    box-sizing: border-box;
-  }
-  
-  body{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #0C343D;
-  }
-  
-  .container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer";
-    margin: 0;
-    padding: 0; 
-  }
-  /*-------------------------------------------------------Nav-------------------------------------------------------------*/
-  
-  nav{
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    background-color: #0C343D;
-    opacity: 90%;
-    width: 25%;
-    z-index: 1;
-  }
-  
-  nav a{
-    text-decoration: none;
-    color: #F9BF4B;
-  }
-  
-  nav a:not(:last-child){
-    margin-right: 0.9vw;
-  }
-  
-  nav a p{
-    margin-top: 1.5vw;
-    font-weight: bold;
-    font-size: 0.6vw;
-  }
-  
-  nav .logo{
-    margin-right: 1vw;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    width: 10vw;
-  }
-  
-  nav .lupa{
-    margin-top: 1.5vw;
-    width: 1vw;
-    height: 1vw;
-    cursor: pointer;
-  }
-  
-  /*----------------------------------------------------Header-------------------------------------------------------------*/
-  
-  header{
-    grid-area: header;
-  }
-  
-  .banner{
-    width: 25%;
-    height: 90%;
-    object-fit: fill;
-  }
-  
-  header div{
-    position: absolute;
-    color: #F9BF4B;
-    top: 8vw;
-    margin-left: 1vw;
-    width: 20vw;
-  }
-  
-  header div p:not(:last-child){
-    font-weight: bold;
-    font-size: 1vw;
-    margin-bottom: 0.5vw;
-  }
-  
-  header div p:last-child{
-    font-size: 0.8vw ;
-    font-weight:lighter;
-  }
-  
-  /*----------------------------------------------------Main---------------------------------------------------------------*/
-  
-  main{
-    grid-area: main;
-  }
-  
-  .introdutor{
-    background-color: #0f3f4a;
-    color: #F9BF4B;
-    display: flex;
-    justify-content: center;
-    font-size: 1vw;
-    margin-top: -1.5vw;
-    width: 24.90vw;
-  }
-  
-  .introdutor p{
-    width: 24.90vw;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 1vw;
-  }
-  
-  .slider{
-    display: block;
-    color: #F9BF4B;
-    background-color: #0a2c33;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 24.90vw;
-    height: 80vw;
-    overflow: hidden;
-  }
-  
-  .slide{
-    width: 25vw;
-  }
-  
-  .slide:not(:last-child){
-    margin-right: 1vw;
-  }
-  
-  .slide img{
-    width: 25vw;
-    height: 15vw;
-  }
-  
-  .slide p{
-    position: absolute;
-    padding-left: 0.5vw;
-    margin-top: -0.1vw;
-    margin-top: -7vw;
-    width: 20vw;
-  }
-  
-  .slide .titulo{
-    font-weight: bold;
-    font-size: 0.7vw;
-  }
-  
-  .slide .descrição{
-    font-size: 0.5vw;
-    margin-top: -6vw;
-  }
-  
-  /*.btn_esq{
-    position: absolute;
-    right: 93vw;
-    top: 63vw;
-    width: 3vw;
-    cursor: pointer;
-  }
-  
-  .btn_esq:hover{
-    width: 3.5vw;
-    right: 92.8vw;
-    transition: 0.2s;
-  }
-  
-  .btn_dir{
-    position: absolute;
-    right: 2.9vw;
-    top: 63vw;
-    width: 3vw;
-    cursor: pointer;
-  }
-  
-  .btn_dir:hover{
-    width: 3.5vw;
-    right: 2.7vw;
-    transition: 0.2s;
-  }*/
-  
-  /*----------------------------------------------------Footer-------------------------------------------------------------*/
-  
-  footer{
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white; 
-    width: 25vw;
-    background-color: #0f3f4a;
-  }
-  
-  .whats{
-    margin-bottom: 0.75vw;
-  }
-  
-  footer img{
-    margin-bottom: 1vw;
-    cursor: pointer;
-    width: 1vw;
-  }
-  
-  footer img:not(:last-child){
-    margin-right: 2.5vw
-  }
-  .palavra{
-    font-size: 0.65vw;
-  }
-
-  .Copyright{
-    font-size: 0.65vw;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+      *{
+        box-sizing: border-box;
+      }
+      
+      body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0C343D;
+      }
+      
+      .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+      }
+      /*-------------------------------------------------------Nav-------------------------------------------------------------*/
+      
+      nav{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        background-color: #0C343D;
+        opacity: 90%;
+        width: 100%;
+        z-index: 1;
+      }
+      
+      nav a{
+        text-decoration: none;
+        color: #F9BF4B;
+      }
+      
+      nav a:not(:last-child){
+        margin-right: 1.3vw;
+      }
+      
+      nav a:last-child{
+        margin-right: 5vw;
+        margin-left: 3vw;
+      }
+      
+      nav a p{
+        margin-top: 3vw;
+        font-weight: bold;
+        font-size: 3.5vw;
+      }
+      
+      nav a p:hover{
+        text-decoration: underline;
+        color: #e39839;
+      }
+      
+      nav .logo{
+        margin-right: 5vw;
+        margin-left: 3vw;
+        margin-top: 2vw;
+        width: 40vw;
+      }
+      
+      nav .lupa{
+        margin-top: 3.5vw;
+        width: 3vw;
+        height: 3vw;
+        cursor: pointer;
+      }
+      
+      nav .lupa:hover{
+        width: 2.7vw;
+        height: 2.7vw;
+      }
+      
+      /*----------------------------------------------------Header-------------------------------------------------------------*/
+      
+      header{
+        grid-area: header;
+      }
+      
+      .banner{
+        width: 100%;
+        height: 90%;
+        object-fit: fill;
+      }
+      
+      header div{
+        position: absolute;
+        color: #F9BF4B;
+        top: 20vw;
+        margin-left: 3.5vw;
+        width: 70vw;
+      }
+      
+      header div p:not(:last-child){
+        font-weight: bold;
+        font-size: 4vw;
+      }
+      
+      header div p:last-child{
+        font-size: 3vw;
+        font-weight:lighter;
+      }
+      
+      /*----------------------------------------------------Main---------------------------------------------------------------*/
+      
+      main{
+        grid-area: main;
+      }
+      
+      .introdutor{
+        background-color: #0f3f4a;
+        color: #F9BF4B;
+        display: flex;
+        justify-content: center;
+        font-size: 4vw;
+        border-bottom: solid 2px black;
+        margin-top: -15vw;
+      }
+      
+      .introdutor p{
+        width: 80%;
+        text-align: center;
+        font-weight: lighter;
+      }
+      
+      .slider{
+        display: block;
+        color: #F9BF4B;
+        background-color: #0a2c33;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        overflow: hidden;
+      }
+      
+      .slide{
+        margin: 2vw auto;
+        background-color: #0f3f4a;
+        width: 99vw;
+        height: 60vw;
+      }
+    
+      .slide:not(:last-child){
+        margin-left: 1vw;
+      }
+      
+      .slide img{
+        width: 99vw;
+        height: 60vw;
+        margin: auto;
+      }
+      
+      .slide p{
+        position: absolute;
+        margin-left: 2vw;
+      }
+      
+      .slide .titulo{
+        font-weight: bold;
+        font-size: 4vw;
+        margin-bottom: 0.1vw;
+        margin-top: -20vw;
+      }
+      
+      .slide .descrição{
+        font-size: 2.8vw;
+        margin-top: -15vw;
+        box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 95%;
+      }
+      
+      /*.btn_esq{
+        position: absolute;
+        right: 93vw;
+        top: 63vw;
+        width: 3vw;
+        cursor: pointer;
+      }
+      
+      .btn_esq:hover{
+        width: 3.5vw;
+        right: 92.8vw;
+        transition: 0.2s;
+      }
+      
+      .btn_dir{
+        position: absolute;
+        right: 2.9vw;
+        top: 63vw;
+        width: 3vw;
+        cursor: pointer;
+      }
+      
+      .btn_dir:hover{
+        width: 3.5vw;
+        right: 2.7vw;
+        transition: 0.2s;
+      }*/
+      
+      /*----------------------------------------------------Footer-------------------------------------------------------------*/
+      
+      footer{
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 4vw;
+      }
+      
+      .whats{
+        margin-bottom: 3vw;
+      }
+      
+      footer img{
+        margin-bottom: 4vw;
+        cursor: pointer;
+        width: 4vw;
+      }
+      
+      footer img:not(:last-child){
+        margin-right: 5vw
+      }
+      .palavra{
+        font-size: 2.6vw;
+      } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
