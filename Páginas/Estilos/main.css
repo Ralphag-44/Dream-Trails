@@ -181,6 +181,9 @@ main{
 
 .slide .descrição{
   font-size: 1vw;
+  font-weight: bold;
+  color: #dddfdf;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*
 .btn_esq{

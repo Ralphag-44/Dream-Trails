@@ -202,8 +202,10 @@ main{
     width: 38vw;
     margin-left: 3vw;
     margin-bottom: 7vw;
-    font-size: 1.8vw ;
-    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6vw ;
+    color: #dddfdf;
+    font-weight: bold;
 }
 
 .bloco1 div div img{
@@ -261,13 +263,15 @@ main{
 .blc_2Text, .blc_2Text2 , .blc_2Text3{
     align-self: flex-start;
     width: 50vw;
-    border-bottom: 0.3vw solid #114FAD;
+    border-bottom: 0.3vw solid #75bff0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6vw;
+    color: #dddfdf;
+    font-weight:  bold;
     text-align: left;
-    font-weight:  100px;
-    font-size: 1.5vw;
-    letter-spacing: 0.09vw;
     margin-left: 2vw;
-}
+    
+}   
 
 .blc_2Text{
     margin-top: 10vw;
@@ -286,8 +290,8 @@ main{
 }
 
 .Sub_title{
-    color: #114FAD;
-    text-decoration: underline;
+    color: #75bff0;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 2.9vw;
     font-weight: bold;
 }
@@ -295,11 +299,9 @@ main{
 .bloco2 div div .Sub_title{
     position: absolute;
     top: 126vw;
-    left: 8vw;
-    color: #114FAD;
-    text-decoration: underline;
-    font-size: 2.9vw;
-    font-weight: bold;
+    left:  4vw;
+    font-size: 1.6 vw;
+
 }
 
 /*----------------------------------------------------- Bloco3 ----------------------------------------------------------*/
@@ -327,8 +329,10 @@ main{
 }
 
 .quadro #descrição{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 2vw;
+    color: #dddfdf;
+    font-size: 1.6vw;
     display: flex;
     width: 90vw;
     text-align:left;
@@ -350,7 +354,8 @@ main{
 }
 
 .back_img p{
-    font-size: 2vw;
+    font-size: 1.6vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     width: 76vw;
     margin-left: 5vw;
@@ -420,9 +425,11 @@ main{
 
 .bloco4 .Quadrado div #Solitude_Local{
     text-align: left;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 75vw;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.6vw;
     margin: 2vw auto;
 }
 
@@ -441,9 +448,11 @@ main{
 
 .bloco4 .Quadrado div div p{
     width: 35vw;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-weight: bold;
-    font-size: 1.7vw;
+    font-size: 1.56vw;
 }
 
 .bloco4 .Quadrado div div img{
@@ -493,6 +502,7 @@ main{
 #pousadas{
     position: absolute;
     top: 363vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     right: 56vw;
     width: 29vw;
     text-align: left;
@@ -516,8 +526,11 @@ main{
 
 .bloco5 .Quadrado div div p{
     width: 29vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 auto;
-    font-size: 1.8vw;
+    font-weight: bold;
+    color: #dddfdf;
+    font-size: 1.65vw;
     text-align: left;
     text-shadow: 0 0.15vw rgba(0, 0, 0, 0.24);
 }
@@ -554,8 +567,11 @@ main{
 
 .bloco6 .Quadrado .aranha p{
     margin-left: 2vw;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 35vw;
-    font-size: 1.4vw;
+    font-weight: bold;
+    font-size: 1.6vw;
 }
 
 .bloco6 .Quadrado .dragões{
@@ -563,7 +579,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-left: 4vw;
-    margin-top: 5vw;
+    margin-top: 4.5vw;
     width: 80%;
 }
 
@@ -573,11 +589,19 @@ main{
 
 .bloco6 .Quadrado .dragões .txt1{
     width: 25vw;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
 }
 
 .bloco6 .Quadrado .dragões .txt2{
     width: 30vw;
-    margin-left: 5vw;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1vw;
+    font-size: 1.4vw;
+    font-weight: bold;
 }
 
 /*----------------------------------------------------- Bloco7 ----------------------------------------------------------*/
@@ -620,10 +644,12 @@ main{
 
 .bloco7 .Quadrado .dicas ul{
     width: 30vw;
+    color: #dddfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-right: 8vw;
     margin-left: 4vw;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     text-shadow: 0 0.15vw rgba(0, 0, 0, 0.24);
 }
 
