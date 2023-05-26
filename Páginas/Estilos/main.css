@@ -471,3 +471,7 @@ footer img:not(:last-child){
   } 
 
 }
+#Copyright{
+  font-size: 2vw;
+  margin: auto;
+}
