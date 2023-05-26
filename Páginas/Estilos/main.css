@@ -242,10 +242,8 @@ footer img:not(:last-child){
 .palavra{
   font-size: 1.3vw;
 }
-#Copyright{
-  font-size: 1vw;
-  margin: auto;
-}
+
+
     /*-----------------------------------------------------------------------------------------------------------------------*/
   }
 
@@ -474,8 +472,9 @@ footer img:not(:last-child){
     font-size: 2.6vw;
   } 
 
-}
-#Copyright{
-  font-size: 2vw;
-  margin: auto;
+  #Copyright{
+    font-size: 2vw;
+    margin: auto;
+  }
+
 }
